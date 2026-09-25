@@ -1,0 +1,17 @@
+.card {
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  text-align: left;
+}
+
+.name {
+  margin: 0 0 8px;
+  font-size: 1rem;
+}
+
+.price {
+  margin: 0;
+  font-weight: 600;
+  color: var(--accent);
+}

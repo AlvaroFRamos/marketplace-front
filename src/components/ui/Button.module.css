@@ -1,0 +1,23 @@
+.button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font: inherit;
+  cursor: pointer;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.primary {
+  background: var(--accent);
+  color: #fff;
+}
+
+.secondary {
+  background: transparent;
+  border-color: var(--border);
+  color: var(--text-h);
+}
